@@ -58,9 +58,7 @@ class _TriageFlowOverviewPageState extends State<TriageFlowOverviewPage> {
                     crossAxisAlignment: CrossAxisAlignment.center,
                     children: const [
                       Text(
-                        'Casos Clínicos
-                        
-                        ',
+                        'Casos Clínicos',
                         style: TextStyle(fontSize: 24),
                         textAlign: TextAlign.center,
                       ),
