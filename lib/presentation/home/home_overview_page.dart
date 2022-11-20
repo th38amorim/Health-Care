@@ -10,17 +10,7 @@ class HomeOverViewPage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: const Color(0XFF009B70),
-        actions: [
-          Padding(
-            padding: const EdgeInsets.only(right: 3),
-            child: IconButton(
-              onPressed: () {},
-              icon: const Icon(Icons.person_outline, size: 32),
-            ),
-          ),
-        ],
       ),
-      drawer: const Drawer(),
       body: const StartTriageButtonWidget(),
     );
   }

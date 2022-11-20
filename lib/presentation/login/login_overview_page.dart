@@ -9,7 +9,7 @@ class LoginOverviewPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       body: Padding(
-        padding: const EdgeInsets.symmetric(vertical: 50, horizontal: 10),
+        padding: const EdgeInsets.symmetric(vertical: 100, horizontal: 10),
         child: Center(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.center,

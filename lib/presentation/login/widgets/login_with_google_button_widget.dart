@@ -13,7 +13,7 @@ class LoginWithGoogleButtonWidget extends StatelessWidget {
       width: MediaQuery.of(context).size.width * 0.7,
       child: ElevatedButton(
         onPressed: () {
-          Navigator.push(
+          Navigator.pushReplacement(
             context,
             MaterialPageRoute(builder: (context) => const HomeOverViewPage()),
           );
