@@ -1,7 +1,6 @@
 import 'dart:async';
 
 import 'package:flutter/material.dart';
-import 'package:health_care/presentation/home/home_overview_page.dart';
 import 'package:health_care/presentation/triage_result/triage_result_overview_page.dart';
 
 class CircularProgressIndicatorPage extends StatefulWidget {

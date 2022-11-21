@@ -15,7 +15,7 @@ class LoginOverviewPage extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.center,
             children: <Widget>[
               Image.asset('app_icon.png', height: 200),
-              const SizedBox(height: 50),
+              const SizedBox(height: 70),
               RichText(
                 textAlign: TextAlign.center,
                 text: const TextSpan(
